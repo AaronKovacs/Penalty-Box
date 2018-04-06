@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "931B41221DE0AB770031E463"
-               BuildableName = "PenaltyBox.app"
-               BlueprintName = "PenaltyBox"
-               ReferencedContainer = "container:PenaltyBox.xcodeproj">
+               BuildableName = "Penalty Box.app"
+               BlueprintName = "Penalty Box"
+               ReferencedContainer = "container:Penalty Box.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "931B41361DE0AB780031E463"
-               BuildableName = "PenaltyBoxTests.xctest"
-               BlueprintName = "PenaltyBoxTests"
-               ReferencedContainer = "container:PenaltyBox.xcodeproj">
+               BuildableName = "Penalty BoxTests.xctest"
+               BlueprintName = "Penalty BoxTests"
+               ReferencedContainer = "container:Penalty Box.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "931B41411DE0AB780031E463"
-               BuildableName = "PenaltyBoxUITests.xctest"
-               BlueprintName = "PenaltyBoxUITests"
-               ReferencedContainer = "container:PenaltyBox.xcodeproj">
+               BuildableName = "Penalty BoxUITests.xctest"
+               BlueprintName = "Penalty BoxUITests"
+               ReferencedContainer = "container:Penalty Box.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "931B41221DE0AB770031E463"
-            BuildableName = "PenaltyBox.app"
-            BlueprintName = "PenaltyBox"
-            ReferencedContainer = "container:PenaltyBox.xcodeproj">
+            BuildableName = "Penalty Box.app"
+            BlueprintName = "Penalty Box"
+            ReferencedContainer = "container:Penalty Box.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "931B41221DE0AB770031E463"
-            BuildableName = "PenaltyBox.app"
-            BlueprintName = "PenaltyBox"
-            ReferencedContainer = "container:PenaltyBox.xcodeproj">
+            BuildableName = "Penalty Box.app"
+            BlueprintName = "Penalty Box"
+            ReferencedContainer = "container:Penalty Box.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "931B41221DE0AB770031E463"
-            BuildableName = "PenaltyBox.app"
-            BlueprintName = "PenaltyBox"
-            ReferencedContainer = "container:PenaltyBox.xcodeproj">
+            BuildableName = "Penalty Box.app"
+            BlueprintName = "Penalty Box"
+            ReferencedContainer = "container:Penalty Box.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

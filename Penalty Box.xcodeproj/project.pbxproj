@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		931B41271DE0AB780031E463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B41261DE0AB780031E463 /* AppDelegate.swift */; };
+		931B412C1DE0AB780031E463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931B412A1DE0AB780031E463 /* Main.storyboard */; };
+		931B412E1DE0AB780031E463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931B412D1DE0AB780031E463 /* Assets.xcassets */; };
+		931B41311DE0AB780031E463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931B412F1DE0AB780031E463 /* LaunchScreen.storyboard */; };
+		931B413C1DE0AB780031E463 /* PenaltyBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B413B1DE0AB780031E463 /* PenaltyBoxTests.swift */; };
+		931B41471DE0AB780031E463 /* PenaltyBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B41461DE0AB780031E463 /* PenaltyBoxUITests.swift */; };
+		931B41561DE0AC260031E463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B41551DE0AC260031E463 /* UIKit.framework */; };
+		931B415E1DE0AC5B0031E463 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B415D1DE0AC5B0031E463 /* AVFoundation.framework */; };
+		931B41621DE0AC780031E463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B41611DE0AC780031E463 /* Foundation.framework */; };
+		931B416E1DE0AD280031E463 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B416D1DE0AD280031E463 /* PlayerCell.swift */; };
+		931B41721DE0AD480031E463 /* PenaltyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B41711DE0AD480031E463 /* PenaltyController.swift */; };
+		931B41741DE0AD590031E463 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B41731DE0AD590031E463 /* SettingsController.swift */; };
+		931B41771DE0AD7B0031E463 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B41761DE0AD7B0031E463 /* TabBarButton.swift */; };
+		931B41791DE0AD900031E463 /* CountdownNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B41781DE0AD900031E463 /* CountdownNavBar.swift */; };
+		931B417E1DE0AE1F0031E463 /* APlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B417D1DE0AE1F0031E463 /* APlayer.swift */; };
+		931B41831DE0B1EE0031E463 /* MCSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 931B41821DE0B1EE0031E463 /* MCSwipeTableViewCell.m */; };
+		931B41851DE0B3BF0031E463 /* ALabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B41841DE0B3BF0031E463 /* ALabel.swift */; };
+		931B418A1DE0B4A00031E463 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 931B41891DE0B4A00031E463 /* MZTimerLabel.m */; };
+		9335ED9D1DEE454A001821B8 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9335ED9C1DEE454A001821B8 /* PickerViewController.swift */; };
+		93457B521DE516D60019E296 /* VibrantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93457B511DE516D60019E296 /* VibrantView.swift */; };
+		93457B5B1DE518EE0019E296 /* PulleyPassthroughScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93457B591DE518EE0019E296 /* PulleyPassthroughScrollView.swift */; };
+		93457B5C1DE518EE0019E296 /* PulleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93457B5A1DE518EE0019E296 /* PulleyViewController.swift */; };
+		93457B5E1DE51DAD0019E296 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93457B5D1DE51DAD0019E296 /* SearchController.swift */; };
+		93457B601DE52B0D0019E296 /* APeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93457B5F1DE52B0D0019E296 /* APeriod.swift */; };
+		93457B671DE5368E0019E296 /* UIView+RoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 93457B651DE5368E0019E296 /* UIView+RoundedCorners.m */; };
+		93457B691DE539560019E296 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93457B681DE539560019E296 /* HeaderView.swift */; };
+		9359B0671DED071A00D31355 /* LargeSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359B0661DED071A00D31355 /* LargeSearchBar.swift */; };
+		9359B0AE1DED13EF00D31355 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9359B09B1DED13EF00D31355 /* AbstractActionSheetPicker.m */; };
+		9359B0AF1DED13EF00D31355 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9359B09D1DED13EF00D31355 /* ActionSheetCustomPicker.m */; };
+		9359B0B01DED13EF00D31355 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9359B0A01DED13EF00D31355 /* ActionSheetDatePicker.m */; };
+		9359B0B11DED13EF00D31355 /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9359B0A21DED13EF00D31355 /* ActionSheetDistancePicker.m */; };
+		9359B0B21DED13EF00D31355 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9359B0A41DED13EF00D31355 /* ActionSheetLocalePicker.m */; };
+		9359B0B31DED13EF00D31355 /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9359B0A61DED13EF00D31355 /* ActionSheetMultipleStringPicker.m */; };
+		9359B0B41DED13EF00D31355 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9359B0A91DED13EF00D31355 /* ActionSheetStringPicker.m */; };
+		9359B0B51DED13EF00D31355 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9359B0AB1DED13EF00D31355 /* DistancePickerView.m */; };
+		9359B0B61DED13EF00D31355 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9359B0AD1DED13EF00D31355 /* SWActionSheet.m */; };
+		9359B0BA1DED295B00D31355 /* PreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359B0B91DED295B00D31355 /* PreferencesController.swift */; };
+		93AFD6CC1DE267F700B8B691 /* PSTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AFD6CB1DE267F700B8B691 /* PSTimer.swift */; };
+		93D2B96E1DE123F100957168 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D2B96D1DE123F100957168 /* UIImage+Additions.m */; };
+		A49420962076EF480012E1BB /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49420952076EF480012E1BB /* UserInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		931B41381DE0AB780031E463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 931B411B1DE0AB770031E463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 931B41221DE0AB770031E463;
+			remoteInfo = PenaltyBox;
+		};
+		931B41431DE0AB780031E463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 931B411B1DE0AB770031E463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 931B41221DE0AB770031E463;
+			remoteInfo = PenaltyBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		931B41231DE0AB780031E463 /* Penalty Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penalty Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		931B41261DE0AB780031E463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		931B412B1DE0AB780031E463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		931B412D1DE0AB780031E463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		931B41301DE0AB780031E463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		931B41321DE0AB780031E463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		931B41371DE0AB780031E463 /* Penalty BoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penalty BoxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		931B413B1DE0AB780031E463 /* PenaltyBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenaltyBoxTests.swift; sourceTree = "<group>"; };
+		931B413D1DE0AB780031E463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		931B41421DE0AB780031E463 /* Penalty BoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penalty BoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		931B41461DE0AB780031E463 /* PenaltyBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenaltyBoxUITests.swift; sourceTree = "<group>"; };
+		931B41481DE0AB780031E463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		931B41551DE0AC260031E463 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		931B41571DE0AC2F0031E463 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		931B41591DE0AC3A0031E463 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		931B415B1DE0AC420031E463 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		931B415D1DE0AC5B0031E463 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		931B415F1DE0AC730031E463 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		931B41611DE0AC780031E463 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		931B41651DE0ACA60031E463 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		931B416D1DE0AD280031E463 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		931B41711DE0AD480031E463 /* PenaltyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PenaltyController.swift; sourceTree = "<group>"; };
+		931B41731DE0AD590031E463 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		931B41761DE0AD7B0031E463 /* TabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
+		931B41781DE0AD900031E463 /* CountdownNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownNavBar.swift; sourceTree = "<group>"; };
+		931B417D1DE0AE1F0031E463 /* APlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APlayer.swift; sourceTree = "<group>"; };
+		931B41801DE0B1ED0031E463 /* PenaltyBox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PenaltyBox-Bridging-Header.h"; sourceTree = "<group>"; };
+		931B41811DE0B1EE0031E463 /* MCSwipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSwipeTableViewCell.h; sourceTree = "<group>"; };
+		931B41821DE0B1EE0031E463 /* MCSwipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSwipeTableViewCell.m; sourceTree = "<group>"; };
+		931B41841DE0B3BF0031E463 /* ALabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALabel.swift; sourceTree = "<group>"; };
+		931B41881DE0B4A00031E463 /* MZTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTimerLabel.h; sourceTree = "<group>"; };
+		931B41891DE0B4A00031E463 /* MZTimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTimerLabel.m; sourceTree = "<group>"; };
+		9335ED9C1DEE454A001821B8 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		93457B511DE516D60019E296 /* VibrantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VibrantView.swift; sourceTree = "<group>"; };
+		93457B591DE518EE0019E296 /* PulleyPassthroughScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulleyPassthroughScrollView.swift; sourceTree = "<group>"; };
+		93457B5A1DE518EE0019E296 /* PulleyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulleyViewController.swift; sourceTree = "<group>"; };
+		93457B5D1DE51DAD0019E296 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		93457B5F1DE52B0D0019E296 /* APeriod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APeriod.swift; sourceTree = "<group>"; };
+		93457B651DE5368E0019E296 /* UIView+RoundedCorners.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RoundedCorners.m"; sourceTree = "<group>"; };
+		93457B661DE5368E0019E296 /* UIView+RoundedCorners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RoundedCorners.h"; sourceTree = "<group>"; };
+		93457B681DE539560019E296 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		9359B0661DED071A00D31355 /* LargeSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeSearchBar.swift; sourceTree = "<group>"; };
+		9359B09A1DED13EF00D31355 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		9359B09B1DED13EF00D31355 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		9359B09C1DED13EF00D31355 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		9359B09D1DED13EF00D31355 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		9359B09E1DED13EF00D31355 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		9359B09F1DED13EF00D31355 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		9359B0A01DED13EF00D31355 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		9359B0A11DED13EF00D31355 /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		9359B0A21DED13EF00D31355 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		9359B0A31DED13EF00D31355 /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		9359B0A41DED13EF00D31355 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		9359B0A51DED13EF00D31355 /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
+		9359B0A61DED13EF00D31355 /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
+		9359B0A71DED13EF00D31355 /* ActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetPicker.h; sourceTree = "<group>"; };
+		9359B0A81DED13EF00D31355 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		9359B0A91DED13EF00D31355 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		9359B0AA1DED13EF00D31355 /* DistancePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistancePickerView.h; sourceTree = "<group>"; };
+		9359B0AB1DED13EF00D31355 /* DistancePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistancePickerView.m; sourceTree = "<group>"; };
+		9359B0AC1DED13EF00D31355 /* SWActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWActionSheet.h; sourceTree = "<group>"; };
+		9359B0AD1DED13EF00D31355 /* SWActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWActionSheet.m; sourceTree = "<group>"; };
+		9359B0B91DED295B00D31355 /* PreferencesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesController.swift; sourceTree = "<group>"; };
+		93AFD6CB1DE267F700B8B691 /* PSTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSTimer.swift; sourceTree = "<group>"; };
+		93D2B96C1DE123F100957168 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		93D2B96D1DE123F100957168 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		A49420952076EF480012E1BB /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		931B41201DE0AB770031E463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931B41621DE0AC780031E463 /* Foundation.framework in Frameworks */,
+				931B415E1DE0AC5B0031E463 /* AVFoundation.framework in Frameworks */,
+				931B41561DE0AC260031E463 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931B41341DE0AB780031E463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931B413F1DE0AB780031E463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		931B411A1DE0AB770031E463 = {
+			isa = PBXGroup;
+			children = (
+				931B41251DE0AB780031E463 /* PenaltyBox */,
+				931B413A1DE0AB780031E463 /* PenaltyBoxTests */,
+				931B41451DE0AB780031E463 /* PenaltyBoxUITests */,
+				931B41241DE0AB780031E463 /* Products */,
+				931B41541DE0AC260031E463 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		931B41241DE0AB780031E463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				931B41231DE0AB780031E463 /* Penalty Box.app */,
+				931B41371DE0AB780031E463 /* Penalty BoxTests.xctest */,
+				931B41421DE0AB780031E463 /* Penalty BoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		931B41251DE0AB780031E463 /* PenaltyBox */ = {
+			isa = PBXGroup;
+			children = (
+				931B41801DE0B1ED0031E463 /* PenaltyBox-Bridging-Header.h */,
+				931B417F1DE0B0000031E463 /* Libraries */,
+				931B417C1DE0AE0E0031E463 /* Structures */,
+				931B41751DE0AD5E0031E463 /* Elements */,
+				931B416C1DE0AD1C0031E463 /* Cells */,
+				931B416B1DE0AD100031E463 /* Controllers */,
+				931B41261DE0AB780031E463 /* AppDelegate.swift */,
+				931B412A1DE0AB780031E463 /* Main.storyboard */,
+				931B412D1DE0AB780031E463 /* Assets.xcassets */,
+				931B412F1DE0AB780031E463 /* LaunchScreen.storyboard */,
+				931B41321DE0AB780031E463 /* Info.plist */,
+			);
+			path = PenaltyBox;
+			sourceTree = "<group>";
+		};
+		931B413A1DE0AB780031E463 /* PenaltyBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				931B413B1DE0AB780031E463 /* PenaltyBoxTests.swift */,
+				931B413D1DE0AB780031E463 /* Info.plist */,
+			);
+			path = PenaltyBoxTests;
+			sourceTree = "<group>";
+		};
+		931B41451DE0AB780031E463 /* PenaltyBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				931B41461DE0AB780031E463 /* PenaltyBoxUITests.swift */,
+				931B41481DE0AB780031E463 /* Info.plist */,
+			);
+			path = PenaltyBoxUITests;
+			sourceTree = "<group>";
+		};
+		931B41541DE0AC260031E463 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				931B41651DE0ACA60031E463 /* AVKit.framework */,
+				931B41611DE0AC780031E463 /* Foundation.framework */,
+				931B415F1DE0AC730031E463 /* CoreFoundation.framework */,
+				931B415D1DE0AC5B0031E463 /* AVFoundation.framework */,
+				931B415B1DE0AC420031E463 /* AudioToolbox.framework */,
+				931B41591DE0AC3A0031E463 /* CoreAudioKit.framework */,
+				931B41571DE0AC2F0031E463 /* CoreAudio.framework */,
+				931B41551DE0AC260031E463 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		931B416B1DE0AD100031E463 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				931B41711DE0AD480031E463 /* PenaltyController.swift */,
+				93457B5D1DE51DAD0019E296 /* SearchController.swift */,
+				931B41731DE0AD590031E463 /* SettingsController.swift */,
+				9359B0B91DED295B00D31355 /* PreferencesController.swift */,
+				9335ED9C1DEE454A001821B8 /* PickerViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		931B416C1DE0AD1C0031E463 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				931B416D1DE0AD280031E463 /* PlayerCell.swift */,
+				931B41841DE0B3BF0031E463 /* ALabel.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		931B41751DE0AD5E0031E463 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				931B41761DE0AD7B0031E463 /* TabBarButton.swift */,
+				931B41781DE0AD900031E463 /* CountdownNavBar.swift */,
+				93457B681DE539560019E296 /* HeaderView.swift */,
+				9359B0661DED071A00D31355 /* LargeSearchBar.swift */,
+			);
+			name = Elements;
+			sourceTree = "<group>";
+		};
+		931B417C1DE0AE0E0031E463 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				931B417D1DE0AE1F0031E463 /* APlayer.swift */,
+				93457B5F1DE52B0D0019E296 /* APeriod.swift */,
+				A49420952076EF480012E1BB /* UserInfo.swift */,
+			);
+			name = Structures;
+			sourceTree = "<group>";
+		};
+		931B417F1DE0B0000031E463 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				9359B0991DED13E500D31355 /* ActionSheetPicker */,
+				93457B591DE518EE0019E296 /* PulleyPassthroughScrollView.swift */,
+				93457B5A1DE518EE0019E296 /* PulleyViewController.swift */,
+				93D2B96C1DE123F100957168 /* UIImage+Additions.h */,
+				93D2B96D1DE123F100957168 /* UIImage+Additions.m */,
+				931B41811DE0B1EE0031E463 /* MCSwipeTableViewCell.h */,
+				931B41821DE0B1EE0031E463 /* MCSwipeTableViewCell.m */,
+				931B41881DE0B4A00031E463 /* MZTimerLabel.h */,
+				931B41891DE0B4A00031E463 /* MZTimerLabel.m */,
+				93AFD6CB1DE267F700B8B691 /* PSTimer.swift */,
+				93457B511DE516D60019E296 /* VibrantView.swift */,
+				93457B661DE5368E0019E296 /* UIView+RoundedCorners.h */,
+				93457B651DE5368E0019E296 /* UIView+RoundedCorners.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		9359B0991DED13E500D31355 /* ActionSheetPicker */ = {
+			isa = PBXGroup;
+			children = (
+				9359B09A1DED13EF00D31355 /* AbstractActionSheetPicker.h */,
+				9359B09B1DED13EF00D31355 /* AbstractActionSheetPicker.m */,
+				9359B09C1DED13EF00D31355 /* ActionSheetCustomPicker.h */,
+				9359B09D1DED13EF00D31355 /* ActionSheetCustomPicker.m */,
+				9359B09E1DED13EF00D31355 /* ActionSheetCustomPickerDelegate.h */,
+				9359B09F1DED13EF00D31355 /* ActionSheetDatePicker.h */,
+				9359B0A01DED13EF00D31355 /* ActionSheetDatePicker.m */,
+				9359B0A11DED13EF00D31355 /* ActionSheetDistancePicker.h */,
+				9359B0A21DED13EF00D31355 /* ActionSheetDistancePicker.m */,
+				9359B0A31DED13EF00D31355 /* ActionSheetLocalePicker.h */,
+				9359B0A41DED13EF00D31355 /* ActionSheetLocalePicker.m */,
+				9359B0A51DED13EF00D31355 /* ActionSheetMultipleStringPicker.h */,
+				9359B0A61DED13EF00D31355 /* ActionSheetMultipleStringPicker.m */,
+				9359B0A71DED13EF00D31355 /* ActionSheetPicker.h */,
+				9359B0A81DED13EF00D31355 /* ActionSheetStringPicker.h */,
+				9359B0A91DED13EF00D31355 /* ActionSheetStringPicker.m */,
+				9359B0AA1DED13EF00D31355 /* DistancePickerView.h */,
+				9359B0AB1DED13EF00D31355 /* DistancePickerView.m */,
+				9359B0AC1DED13EF00D31355 /* SWActionSheet.h */,
+				9359B0AD1DED13EF00D31355 /* SWActionSheet.m */,
+			);
+			name = ActionSheetPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		931B41221DE0AB770031E463 /* Penalty Box */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 931B414B1DE0AB780031E463 /* Build configuration list for PBXNativeTarget "Penalty Box" */;
+			buildPhases = (
+				931B411F1DE0AB770031E463 /* Sources */,
+				931B41201DE0AB770031E463 /* Frameworks */,
+				931B41211DE0AB770031E463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Penalty Box";
+			productName = PenaltyBox;
+			productReference = 931B41231DE0AB780031E463 /* Penalty Box.app */;
+			productType = "com.apple.product-type.application";
+		};
+		931B41361DE0AB780031E463 /* Penalty BoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 931B414E1DE0AB780031E463 /* Build configuration list for PBXNativeTarget "Penalty BoxTests" */;
+			buildPhases = (
+				931B41331DE0AB780031E463 /* Sources */,
+				931B41341DE0AB780031E463 /* Frameworks */,
+				931B41351DE0AB780031E463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				931B41391DE0AB780031E463 /* PBXTargetDependency */,
+			);
+			name = "Penalty BoxTests";
+			productName = PenaltyBoxTests;
+			productReference = 931B41371DE0AB780031E463 /* Penalty BoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		931B41411DE0AB780031E463 /* Penalty BoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 931B41511DE0AB780031E463 /* Build configuration list for PBXNativeTarget "Penalty BoxUITests" */;
+			buildPhases = (
+				931B413E1DE0AB780031E463 /* Sources */,
+				931B413F1DE0AB780031E463 /* Frameworks */,
+				931B41401DE0AB780031E463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				931B41441DE0AB780031E463 /* PBXTargetDependency */,
+			);
+			name = "Penalty BoxUITests";
+			productName = PenaltyBoxUITests;
+			productReference = 931B41421DE0AB780031E463 /* Penalty BoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		931B411B1DE0AB770031E463 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Aaron Kovacs";
+				TargetAttributes = {
+					931B41221DE0AB770031E463 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WK47J239P7;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					931B41361DE0AB780031E463 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WK47J239P7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 931B41221DE0AB770031E463;
+					};
+					931B41411DE0AB780031E463 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WK47J239P7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 931B41221DE0AB770031E463;
+					};
+				};
+			};
+			buildConfigurationList = 931B411E1DE0AB770031E463 /* Build configuration list for PBXProject "Penalty Box" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 931B411A1DE0AB770031E463;
+			productRefGroup = 931B41241DE0AB780031E463 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				931B41221DE0AB770031E463 /* Penalty Box */,
+				931B41361DE0AB780031E463 /* Penalty BoxTests */,
+				931B41411DE0AB780031E463 /* Penalty BoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		931B41211DE0AB770031E463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931B41311DE0AB780031E463 /* LaunchScreen.storyboard in Resources */,
+				931B412E1DE0AB780031E463 /* Assets.xcassets in Resources */,
+				931B412C1DE0AB780031E463 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931B41351DE0AB780031E463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931B41401DE0AB780031E463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		931B411F1DE0AB770031E463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93457B5B1DE518EE0019E296 /* PulleyPassthroughScrollView.swift in Sources */,
+				931B416E1DE0AD280031E463 /* PlayerCell.swift in Sources */,
+				93457B521DE516D60019E296 /* VibrantView.swift in Sources */,
+				9359B0671DED071A00D31355 /* LargeSearchBar.swift in Sources */,
+				9359B0B41DED13EF00D31355 /* ActionSheetStringPicker.m in Sources */,
+				9359B0B61DED13EF00D31355 /* SWActionSheet.m in Sources */,
+				931B41831DE0B1EE0031E463 /* MCSwipeTableViewCell.m in Sources */,
+				9359B0B51DED13EF00D31355 /* DistancePickerView.m in Sources */,
+				93457B601DE52B0D0019E296 /* APeriod.swift in Sources */,
+				93D2B96E1DE123F100957168 /* UIImage+Additions.m in Sources */,
+				931B41741DE0AD590031E463 /* SettingsController.swift in Sources */,
+				931B41271DE0AB780031E463 /* AppDelegate.swift in Sources */,
+				931B418A1DE0B4A00031E463 /* MZTimerLabel.m in Sources */,
+				9359B0BA1DED295B00D31355 /* PreferencesController.swift in Sources */,
+				931B41791DE0AD900031E463 /* CountdownNavBar.swift in Sources */,
+				9359B0AE1DED13EF00D31355 /* AbstractActionSheetPicker.m in Sources */,
+				9359B0B11DED13EF00D31355 /* ActionSheetDistancePicker.m in Sources */,
+				9335ED9D1DEE454A001821B8 /* PickerViewController.swift in Sources */,
+				93457B5E1DE51DAD0019E296 /* SearchController.swift in Sources */,
+				9359B0B21DED13EF00D31355 /* ActionSheetLocalePicker.m in Sources */,
+				A49420962076EF480012E1BB /* UserInfo.swift in Sources */,
+				9359B0B31DED13EF00D31355 /* ActionSheetMultipleStringPicker.m in Sources */,
+				9359B0AF1DED13EF00D31355 /* ActionSheetCustomPicker.m in Sources */,
+				931B41721DE0AD480031E463 /* PenaltyController.swift in Sources */,
+				931B417E1DE0AE1F0031E463 /* APlayer.swift in Sources */,
+				93457B671DE5368E0019E296 /* UIView+RoundedCorners.m in Sources */,
+				93457B691DE539560019E296 /* HeaderView.swift in Sources */,
+				931B41851DE0B3BF0031E463 /* ALabel.swift in Sources */,
+				93AFD6CC1DE267F700B8B691 /* PSTimer.swift in Sources */,
+				9359B0B01DED13EF00D31355 /* ActionSheetDatePicker.m in Sources */,
+				931B41771DE0AD7B0031E463 /* TabBarButton.swift in Sources */,
+				93457B5C1DE518EE0019E296 /* PulleyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931B41331DE0AB780031E463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931B413C1DE0AB780031E463 /* PenaltyBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931B413E1DE0AB780031E463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931B41471DE0AB780031E463 /* PenaltyBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		931B41391DE0AB780031E463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 931B41221DE0AB770031E463 /* Penalty Box */;
+			targetProxy = 931B41381DE0AB780031E463 /* PBXContainerItemProxy */;
+		};
+		931B41441DE0AB780031E463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 931B41221DE0AB770031E463 /* Penalty Box */;
+			targetProxy = 931B41431DE0AB780031E463 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		931B412A1DE0AB780031E463 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				931B412B1DE0AB780031E463 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		931B412F1DE0AB780031E463 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				931B41301DE0AB780031E463 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		931B41491DE0AB780031E463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		931B414A1DE0AB780031E463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		931B414C1DE0AB780031E463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = WK47J239P7;
+				INFOPLIST_FILE = PenaltyBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AaronKovacs.PenaltyBoxCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PenaltyBox/PenaltyBox-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		931B414D1DE0AB780031E463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = WK47J239P7;
+				INFOPLIST_FILE = PenaltyBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AaronKovacs.PenaltyBoxCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PenaltyBox/PenaltyBox-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		931B414F1DE0AB780031E463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WK47J239P7;
+				INFOPLIST_FILE = PenaltyBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AaronKovacs.PenaltyBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penalty Box.app/Penalty Box";
+			};
+			name = Debug;
+		};
+		931B41501DE0AB780031E463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WK47J239P7;
+				INFOPLIST_FILE = PenaltyBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AaronKovacs.PenaltyBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penalty Box.app/Penalty Box";
+			};
+			name = Release;
+		};
+		931B41521DE0AB780031E463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WK47J239P7;
+				INFOPLIST_FILE = PenaltyBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AaronKovacs.PenaltyBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PenaltyBox;
+			};
+			name = Debug;
+		};
+		931B41531DE0AB780031E463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WK47J239P7;
+				INFOPLIST_FILE = PenaltyBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AaronKovacs.PenaltyBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PenaltyBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		931B411E1DE0AB770031E463 /* Build configuration list for PBXProject "Penalty Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931B41491DE0AB780031E463 /* Debug */,
+				931B414A1DE0AB780031E463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		931B414B1DE0AB780031E463 /* Build configuration list for PBXNativeTarget "Penalty Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931B414C1DE0AB780031E463 /* Debug */,
+				931B414D1DE0AB780031E463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		931B414E1DE0AB780031E463 /* Build configuration list for PBXNativeTarget "Penalty BoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931B414F1DE0AB780031E463 /* Debug */,
+				931B41501DE0AB780031E463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		931B41511DE0AB780031E463 /* Build configuration list for PBXNativeTarget "Penalty BoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931B41521DE0AB780031E463 /* Debug */,
+				931B41531DE0AB780031E463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 931B411B1DE0AB770031E463 /* Project object */;
+}
